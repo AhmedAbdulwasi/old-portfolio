@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'HandWritten';
+    src: url('font/SimpleHandmade.otf') format('opentype');
+  }
+  
+@font-face {
+    font-family: 'ParagraphFont';
+    src: url('font/SignikaNegative-VariableFont_wght.ttf') format('truetype');
+  }
+
+@font-face {
+        font-family: 'TitleFont';
+        src: url('font/MavenPro-Bold.ttf') format('truetype');
+    }
+@font-face {
+    font-family: 'SubTitleFont';
+    src: url('font/MavenPro-Medium.ttf') format('truetype');
+}

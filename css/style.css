@@ -1,0 +1,255 @@
+/* Global Styles + Home Page Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ParagraphFont', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+h1, h2, h3, p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'TitleFont', serif;
+}
+
+h2 {
+    font-size: 3.9em;
+    font-family: 'HandWritten', cursive;
+    
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family: 'SubTitleFont', sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: 'ParagraphFont', sans-serif;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#TMU {
+    max-width: 75px;
+    height: auto;
+}
+.ahmed {
+    max-width: 325px;
+    height: auto;
+    border-radius: 120px;
+    border: 2px solid #000000;
+    box-shadow: 10px 14px 0px rgb(0, 0, 0);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    padding: 10px 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+.nav ul #links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+#links img {
+    max-width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#small{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.MainText {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #00000050;
+    padding: 10px 20px; 
+    margin: 0 auto;
+}
+
+.MainText h2, .MainText p {
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* About Page Styles */
+
+.MainText1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+
+/* Experience And Project Page Styles */
+
+.MainText2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 50px; 
+}
+
+#pg1 {
+    line-height: 1em; 
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+
+}
+
+.card-image {
+    position: relative;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.card-image .card-img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    margin: 10px;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.image-content,.card-content {
+    padding: 10 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.desc1, .job-title1 {
+    text-align: center;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.button1, .button2 {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #007bff;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button1:hover, .button2:hover {
+    background-color: #0069d9;
+}
+
+.overlay {
+    border-radius: 25px 25px 0 25px;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+    
+}
+
+.MainText2 h2, .MainText2 p {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .card-image .card-img {
+        height: 150px;
+        width: 150px; 
+    }
+}
