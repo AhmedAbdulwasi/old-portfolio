@@ -156,6 +156,14 @@ a:hover {
     margin-bottom: 75px;
 }
 
+.text_output {
+    text-align: center; 
+}
+
+.boxquote {
+    font-size: 1.2em; 
+    margin-bottom: 10px;
+}
 
 /* Experience And Project Page Styles */
 
